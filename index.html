@@ -72,7 +72,7 @@
   .wallet a{display:block;line-height:0}
   .wallet img{height:44px;width:auto;display:block}
   .wallet a[hidden]{display:none}
-  a[href^="tel"],a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important}
+  .place a.tel,a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important}
   #toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 20px);transform:translateX(-50%);background:#fff;color:var(--navy);padding:10px 18px;border-radius:999px;font-size:14px;font-weight:600;opacity:0;transition:opacity .2s;pointer-events:none}
   #toast.on{opacity:1}
   @media (max-height:600px){.details{font-size:13.5px;line-height:1.6}.save{height:48px}.wallet img{height:40px}.act{font-size:11px}.qr span{display:none}}
@@ -84,7 +84,7 @@
     <div class="photo"><img src="photo-theo.jpg" alt="Theo Arampampaslis"></div>
     <h1>Theo Arampampaslis</h1>
     <div class="rule"><span>Business Consultant</span></div>
-    <p class="place">+357 99 421934 · Paralimni, Cyprus</p>
+    <p class="place"><a class="tel" href="tel:+35799421934">+357 99 421934</a> · Paralimni, Cyprus</p>
   </section>
 
   <nav class="acts">
